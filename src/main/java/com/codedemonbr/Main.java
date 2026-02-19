@@ -4,7 +4,7 @@ package com.codedemonbr;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        String minhaPalavra = "abcdeaB";
-        System.out.println(CountingDuplicates.duplicateCount(minhaPalavra));
+       String res = PrimeDecomp.factors(7775460);
+        System.out.println(res);
     }
 }
