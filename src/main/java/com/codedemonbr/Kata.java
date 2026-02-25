@@ -4,6 +4,24 @@ import java.util.stream.IntStream;
 
 public class Kata {
 
+    public static String createPhoneNumber(int[] numbers) {
+        // Your code here!
+        StringBuilder sb = new StringBuilder();
+        for (int i = 0; i < numbers.length; i++) {
+            if(i == 0){
+                sb.append("(");
+            }
+            if(i == 3){
+                sb.append(") ");
+            }
+            if(i == 6){
+                sb.append("-");
+            }
+            sb.append(numbers[i]);
+        }
+        return sb.toString();
+    }
+
     private static int sumLeft(int[] arr, int pos){
 //        int acc = 0;
 //        for(int i = pos - 1; i >= 0; i--){

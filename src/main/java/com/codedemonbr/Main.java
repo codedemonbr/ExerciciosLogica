@@ -4,7 +4,10 @@ package com.codedemonbr;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-       String res = PrimeDecomp.factors(7775460);
-        System.out.println(res);
+
+        for (int i = 0; i < 1005; i++) {
+            System.out.println("Fibo >> i = " + i);
+            System.out.println(Finonacci.fibo(i));
+        }
     }
 }
