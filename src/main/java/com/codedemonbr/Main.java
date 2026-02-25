@@ -5,9 +5,5 @@ package com.codedemonbr;
 public class Main {
     public static void main(String[] args) {
 
-        for (int i = 0; i < 1005; i++) {
-            System.out.println("Fibo >> i = " + i);
-            System.out.println(Finonacci.fibo(i));
-        }
     }
 }
