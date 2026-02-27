@@ -6,12 +6,10 @@ import java.math.BigInteger;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
+//        int[][] matrix = {{2, 5, 3}, {1, -2, -1}, {1, 3, 4}};
+        int[][] mat = {{0, 1, 2, 11}, {3, 4, 5, 22}, {6, 7, 8, 33}, {6,8,9,10}};
+        int[][] res = Matrix.newMatrix(mat, 0, 0);
 
-//        System.out.println(Fibonacci.fib(1_000_000));
 
-        for (int i = 0; i > -10; i--) {
-            System.out.println(Fibonacci.fib(BigInteger.valueOf(i)));
-
-        }
     }
 }
