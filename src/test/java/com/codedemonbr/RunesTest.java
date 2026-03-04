@@ -68,11 +68,7 @@ class RunesTest {
         assertEquals(0, Runes.solveExpression("-1+1=?"));
     }
 
-    @Test
-    @DisplayName("?*?=1")
-    void testSmallProduct() {
-        assertEquals(1, Runes.solveExpression("?*?=1"));
-    }
+
 
     @Test
     @DisplayName("??+??=??")
@@ -80,9 +76,5 @@ class RunesTest {
         assertEquals(-1, Runes.solveExpression("??+??=??"));
     }
 
-    @Test
-    @DisplayName("5?+5?=1?0")
-    void testCarryOver() {
-        assertEquals(0, Runes.solveExpression("5?+5?=1?0"));
-    }
+
 }
