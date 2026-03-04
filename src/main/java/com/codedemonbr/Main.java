@@ -5,9 +5,12 @@ package com.codedemonbr;
 public class Main {
     public static void main(String[] args) {
 
-        for (int i = 0; i < 1005; i++) {
-            System.out.println("Fibo >> i = " + i);
-            System.out.println(Finonacci.fibo(i));
-        }
+//        String test = "123*45?=5?088";
+//        String test = "19--45=5?";
+        String test = "-5?*-1=5?";
+
+        int res = Runes.solveExpression(test);
+
+        System.out.println(res);
     }
 }
